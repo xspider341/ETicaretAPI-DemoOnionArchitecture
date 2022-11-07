@@ -40,3 +40,4 @@ C:\Users\mehmeteminsoysal\Desktop\ETicaretUygulaması\ETicaretAPI\Presentation\E
 C:\Users\mehmeteminsoysal\Desktop\ETicaretUygulaması\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\mehmeteminsoysal\Desktop\ETicaretUygulaması\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Npgsql.dll
 C:\Users\mehmeteminsoysal\Desktop\ETicaretUygulaması\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\mehmeteminsoysal\Desktop\ETicaretUygulaması\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll

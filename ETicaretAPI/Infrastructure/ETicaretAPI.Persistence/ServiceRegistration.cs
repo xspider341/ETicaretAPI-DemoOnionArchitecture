@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 
 namespace ETicaretAPI.Persistence
 {
@@ -16,8 +17,8 @@ namespace ETicaretAPI.Persistence
         public static void AddPersistenceServices(this IServiceCollection services)
         {
             services.AddSingleton<IProductService, ProductService>();
-
-            services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql("User ID=postgres;Password=123456;Host=localhost;Port=49153;Database=ETicaretAPIDb;"));
+           
+            services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
         }
     }
 }
